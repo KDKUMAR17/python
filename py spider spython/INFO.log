@@ -1,0 +1,345 @@
+03/22 08:52:50 INFO   :.......init_policyAPI: RegisterWithPolicyAPI:  Writing to socket = 22
+03/22 08:52:50 INFO   :.......init_policyAPI: ReadBuffer:  Entering
+03/22 08:52:51 INFO   :.......init_policyAPI: ReadBuffer:  Exiting
+03/22 08:52:51 INFO   :.......init_policyAPI: RegisterWithPolicyAPI:  Exiting
+03/22 08:52:51 INFO   :.......init_policyAPI: Policy API initialized
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: RSVPFindActionName:  Entering
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: ReadBuffer:  Entering
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: ReadBuffer:  Exiting
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: RSVPFindActionName:  Result = 0
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: RSVPFindActionName:  Exiting
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: found action name CLCat2 for 
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: RSVPFindServiceDetailsOnActName:  Entering
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: ReadBuffer:  Entering
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: ReadBuffer:  Exiting
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: RSVPFindServiceDetailsOnActName:  Result = 0
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: RSVPFindServiceDetailsOnActName:  Exiting
+03/22 08:52:51 INFO   :.....api_reader: appl chose service type 1
+03/22 08:52:51 INFO   :......rpapi_getSpecData: RSVPGetTSpec:  Entering
+03/22 08:52:51 INFO   :......rpapi_getSpecData: RSVPGetTSpec:  Result = 0
+03/22 08:52:51 INFO   :......rpapi_getSpecData: RSVPGetTSpec:  Exiting
+03/22 08:52:51 INFO   :.......rsvp_flow_stateMachine: state SESSIONED, event PATHDELTA
+03/22 08:52:51 INFO   :.......rsvp_parse_objects: obj RSVP_HOP hop=9.67.116.99, lih=0
+03/22 08:52:51 INFO   :.......rsvp_flow_stateMachine: state PATHED, event RESVDELTA
+03/22 08:52:51 INFO   :.........qosmgr_request: src-9.67.116.98:8000 dst-9.67.116.99:1047 proto-6 
+03/22 08:52:51 INFO   :.........qosmgr_request: [CL r=90000 b=6000 p=110000 m=1024 M=2048]
+03/22 08:52:51 INFO   :.........qosmgr_request: Ioctl to add reservation successful
+03/22 08:52:51 INFO   :..........rpapi_Reg_UnregFlow: RSVPPutActionName:  Entering
+03/22 08:53:38 INFO   :......rsvp_flow_stateMachine: state RESVED, event T1OUT
+03/22 08:53:52 INFO   :.......rsvp_parse_objects: obj RSVP_HOP hop=9.67.116.99, lih=0
+03/22 08:53:52 INFO   :.......rsvp_flow_stateMachine: state RESVED, event RESV
+03/22 08:53:53 INFO   :......router_forward_getOI: Ioctl to query route entry successful
+03/22 08:53:53 INFO   :......rsvp_flow_stateMachine: state RESVED, event T1OUT
+03/22 08:54:09 INFO   :......router_forward_getOI: Ioctl to query route entry successful
+03/22 08:54:09 INFO   :......rsvp_flow_stateMachine: state RESVED, event T1OUT
+03/22 08:54:22 INFO   :.......rsvp_parse_objects: obj RSVP_HOP hop=9.67.116.99, lih=0
+03/22 08:54:22 INFO   :.......rsvp_flow_stateMachine: state RESVED, event RESV
+03/22 08:54:24 INFO   :......router_forward_getOI: Ioctl to query route entry successful
+03/22 08:52:50 INFO   :.......init_policyAPI: RegisterWithPolicyAPI:  Writing to socket = 22
+03/22 08:52:50 INFO   :.......init_policyAPI: ReadBuffer:  Entering
+03/22 08:52:51 INFO   :.......init_policyAPI: ReadBuffer:  Exiting
+03/22 08:52:51 INFO   :.......init_policyAPI: RegisterWithPolicyAPI:  Exiting
+03/22 08:52:51 INFO   :.......init_policyAPI: Policy API initialized
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: RSVPFindActionName:  Entering
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: ReadBuffer:  Entering
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: ReadBuffer:  Exiting
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: RSVPFindActionName:  Result = 0
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: RSVPFindActionName:  Exiting
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: found action name CLCat2 for 
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: RSVPFindServiceDetailsOnActName:  Entering
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: ReadBuffer:  Entering
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: ReadBuffer:  Exiting
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: RSVPFindServiceDetailsOnActName:  Result = 0
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: RSVPFindServiceDetailsOnActName:  Exiting
+03/22 08:52:51 INFO   :.....api_reader: appl chose service type 1
+03/22 08:52:51 INFO   :......rpapi_getSpecData: RSVPGetTSpec:  Entering
+03/22 08:52:51 INFO   :......rpapi_getSpecData: RSVPGetTSpec:  Result = 0
+03/22 08:52:51 INFO   :......rpapi_getSpecData: RSVPGetTSpec:  Exiting
+03/22 08:52:51 INFO   :.......rsvp_flow_stateMachine: state SESSIONED, event PATHDELTA
+03/22 08:52:51 INFO   :.......rsvp_parse_objects: obj RSVP_HOP hop=9.67.116.99, lih=0
+03/22 08:52:51 INFO   :.......rsvp_flow_stateMachine: state PATHED, event RESVDELTA
+03/22 08:52:51 INFO   :.........qosmgr_request: src-9.67.116.98:8000 dst-9.67.116.99:1047 proto-6 
+03/22 08:52:51 INFO   :.........qosmgr_request: [CL r=90000 b=6000 p=110000 m=1024 M=2048]
+03/22 08:52:51 INFO   :.........qosmgr_request: Ioctl to add reservation successful
+03/22 08:52:51 INFO   :..........rpapi_Reg_UnregFlow: RSVPPutActionName:  Entering
+03/22 08:53:38 INFO   :......rsvp_flow_stateMachine: state RESVED, event T1OUT
+03/22 08:53:52 INFO   :.......rsvp_parse_objects: obj RSVP_HOP hop=9.67.116.99, lih=0
+03/22 08:53:52 INFO   :.......rsvp_flow_stateMachine: state RESVED, event RESV
+03/22 08:53:53 INFO   :......router_forward_getOI: Ioctl to query route entry successful
+03/22 08:53:53 INFO   :......rsvp_flow_stateMachine: state RESVED, event T1OUT
+03/22 08:54:09 INFO   :......router_forward_getOI: Ioctl to query route entry successful
+03/22 08:54:09 INFO   :......rsvp_flow_stateMachine: state RESVED, event T1OUT
+03/22 08:54:22 INFO   :.......rsvp_parse_objects: obj RSVP_HOP hop=9.67.116.99, lih=0
+03/22 08:54:22 INFO   :.......rsvp_flow_stateMachine: state RESVED, event RESV
+03/22 08:54:24 INFO   :......router_forward_getOI: Ioctl to query route entry successful
+03/22 08:52:50 INFO   :.......init_policyAPI: RegisterWithPolicyAPI:  Writing to socket = 22
+03/22 08:52:50 INFO   :.......init_policyAPI: ReadBuffer:  Entering
+03/22 08:52:51 INFO   :.......init_policyAPI: ReadBuffer:  Exiting
+03/22 08:52:51 INFO   :.......init_policyAPI: RegisterWithPolicyAPI:  Exiting
+03/22 08:52:51 INFO   :.......init_policyAPI: Policy API initialized
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: RSVPFindActionName:  Entering
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: ReadBuffer:  Entering
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: ReadBuffer:  Exiting
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: RSVPFindActionName:  Result = 0
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: RSVPFindActionName:  Exiting
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: found action name CLCat2 for 
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: RSVPFindServiceDetailsOnActName:  Entering
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: ReadBuffer:  Entering
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: ReadBuffer:  Exiting
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: RSVPFindServiceDetailsOnActName:  Result = 0
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: RSVPFindServiceDetailsOnActName:  Exiting
+03/22 08:52:51 INFO   :.....api_reader: appl chose service type 1
+03/22 08:52:51 INFO   :......rpapi_getSpecData: RSVPGetTSpec:  Entering
+03/22 08:52:51 INFO   :......rpapi_getSpecData: RSVPGetTSpec:  Result = 0
+03/22 08:52:51 INFO   :......rpapi_getSpecData: RSVPGetTSpec:  Exiting
+03/22 08:52:51 INFO   :.......rsvp_flow_stateMachine: state SESSIONED, event PATHDELTA
+03/22 08:52:51 INFO   :.......rsvp_parse_objects: obj RSVP_HOP hop=9.67.116.99, lih=0
+03/22 08:52:51 INFO   :.......rsvp_flow_stateMachine: state PATHED, event RESVDELTA
+03/22 08:52:51 INFO   :.........qosmgr_request: src-9.67.116.98:8000 dst-9.67.116.99:1047 proto-6 
+03/22 08:52:51 INFO   :.........qosmgr_request: [CL r=90000 b=6000 p=110000 m=1024 M=2048]
+03/22 08:52:51 INFO   :.........qosmgr_request: Ioctl to add reservation successful
+03/22 08:52:51 INFO   :..........rpapi_Reg_UnregFlow: RSVPPutActionName:  Entering
+03/22 08:53:38 INFO   :......rsvp_flow_stateMachine: state RESVED, event T1OUT
+03/22 08:53:52 INFO   :.......rsvp_parse_objects: obj RSVP_HOP hop=9.67.116.99, lih=0
+03/22 08:53:52 INFO   :.......rsvp_flow_stateMachine: state RESVED, event RESV
+03/22 08:53:53 INFO   :......router_forward_getOI: Ioctl to query route entry successful
+03/22 08:53:53 INFO   :......rsvp_flow_stateMachine: state RESVED, event T1OUT
+03/22 08:54:09 INFO   :......router_forward_getOI: Ioctl to query route entry successful
+03/22 08:54:09 INFO   :......rsvp_flow_stateMachine: state RESVED, event T1OUT
+03/22 08:54:22 INFO   :.......rsvp_parse_objects: obj RSVP_HOP hop=9.67.116.99, lih=0
+03/22 08:54:22 INFO   :.......rsvp_flow_stateMachine: state RESVED, event RESV
+03/22 08:54:24 INFO   :......router_forward_getOI: Ioctl to query route entry successful
+03/22 08:52:50 INFO   :.......init_policyAPI: RegisterWithPolicyAPI:  Writing to socket = 22
+03/22 08:52:50 INFO   :.......init_policyAPI: ReadBuffer:  Entering
+03/22 08:52:51 INFO   :.......init_policyAPI: ReadBuffer:  Exiting
+03/22 08:52:51 INFO   :.......init_policyAPI: RegisterWithPolicyAPI:  Exiting
+03/22 08:52:51 INFO   :.......init_policyAPI: Policy API initialized
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: RSVPFindActionName:  Entering
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: ReadBuffer:  Entering
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: ReadBuffer:  Exiting
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: RSVPFindActionName:  Result = 0
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: RSVPFindActionName:  Exiting
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: found action name CLCat2 for 
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: RSVPFindServiceDetailsOnActName:  Entering
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: ReadBuffer:  Entering
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: ReadBuffer:  Exiting
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: RSVPFindServiceDetailsOnActName:  Result = 0
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: RSVPFindServiceDetailsOnActName:  Exiting
+03/22 08:52:51 INFO   :.....api_reader: appl chose service type 1
+03/22 08:52:51 INFO   :......rpapi_getSpecData: RSVPGetTSpec:  Entering
+03/22 08:52:51 INFO   :......rpapi_getSpecData: RSVPGetTSpec:  Result = 0
+03/22 08:52:51 INFO   :......rpapi_getSpecData: RSVPGetTSpec:  Exiting
+03/22 08:52:51 INFO   :.......rsvp_flow_stateMachine: state SESSIONED, event PATHDELTA
+03/22 08:52:51 INFO   :.......rsvp_parse_objects: obj RSVP_HOP hop=9.67.116.99, lih=0
+03/22 08:52:51 INFO   :.......rsvp_flow_stateMachine: state PATHED, event RESVDELTA
+03/22 08:52:51 INFO   :.........qosmgr_request: src-9.67.116.98:8000 dst-9.67.116.99:1047 proto-6 
+03/22 08:52:51 INFO   :.........qosmgr_request: [CL r=90000 b=6000 p=110000 m=1024 M=2048]
+03/22 08:52:51 INFO   :.........qosmgr_request: Ioctl to add reservation successful
+03/22 08:52:51 INFO   :..........rpapi_Reg_UnregFlow: RSVPPutActionName:  Entering
+03/22 08:53:38 INFO   :......rsvp_flow_stateMachine: state RESVED, event T1OUT
+03/22 08:53:52 INFO   :.......rsvp_parse_objects: obj RSVP_HOP hop=9.67.116.99, lih=0
+03/22 08:53:52 INFO   :.......rsvp_flow_stateMachine: state RESVED, event RESV
+03/22 08:53:53 INFO   :......router_forward_getOI: Ioctl to query route entry successful
+03/22 08:53:53 INFO   :......rsvp_flow_stateMachine: state RESVED, event T1OUT
+03/22 08:54:09 INFO   :......router_forward_getOI: Ioctl to query route entry successful
+03/22 08:54:09 INFO   :......rsvp_flow_stateMachine: state RESVED, event T1OUT
+03/22 08:54:22 INFO   :.......rsvp_parse_objects: obj RSVP_HOP hop=9.67.116.99, lih=0
+03/22 08:54:22 INFO   :.......rsvp_flow_stateMachine: state RESVED, event RESV
+03/22 08:54:24 INFO   :......router_forward_getOI: Ioctl to query route entry successful
+03/22 08:51:01 INFO   :.main: *************** RSVP Agent started ***************
+03/22 08:51:01 INFO   :...locate_configFile: Specified configuration file: /u/user10/rsvpd1.conf
+03/22 08:51:01 INFO   :.main: Using log level 511
+03/22 08:51:01 INFO   :..settcpimage: Get TCP images rc - EDC8112I Operation not supported on socket.
+03/22 08:51:01 INFO   :..settcpimage: Associate with TCP/IP image name = TCPCS
+03/22 08:51:02 INFO   :..reg_process: registering process with the system
+03/22 08:51:02 INFO   :..reg_process: attempt OS/390 registration
+03/22 08:51:02 INFO   :..reg_process: return from registration rc=0
+03/22 08:51:06 INFO   :...read_physical_netif: index #0, interface VLINK1 has address 129.1.1.1, ifidx 0
+03/22 08:51:06 INFO   :...read_physical_netif: index #1, interface TR1 has address 9.37.65.139, ifidx 1
+03/22 08:51:06 INFO   :...read_physical_netif: index #2, interface LINK11 has address 9.67.100.1, ifidx 2
+03/22 08:51:06 INFO   :...read_physical_netif: index #3, interface LINK12 has address 9.67.101.1, ifidx 3
+03/22 08:51:06 INFO   :...read_physical_netif: index #4, interface CTCD0 has address 9.67.116.98, ifidx 4
+03/22 08:51:06 INFO   :...read_physical_netif: index #5, interface CTCD2 has address 9.67.117.98, ifidx 5
+03/22 08:51:06 INFO   :...read_physical_netif: index #6, interface LOOPBACK has address 127.0.0.1, ifidx 0
+03/22 08:51:06 INFO   :....mailslot_create: creating mailslot for timer
+03/22 08:51:06 INFO   :...mailbox_register: mailbox allocated for timer
+03/22 08:51:06 INFO   :.....mailslot_create: creating mailslot for RSVP
+03/22 08:51:06 INFO   :....mailbox_register: mailbox allocated for rsvp
+03/22 08:51:06 INFO   :.....mailslot_create: creating mailslot for RSVP via UDP
+03/22 08:51:06 INFO   :....mailbox_register: mailbox allocated for rsvp-udp
+03/22 08:51:06 INFO   :.....mailslot_create: creating mailslot for RSVP
+03/22 08:51:06 INFO   :....mailbox_register: mailbox allocated for rsvp
+03/22 08:51:06 INFO   :.....mailslot_create: creating mailslot for RSVP via UDP
+03/22 08:51:06 INFO   :....mailbox_register: mailbox allocated for rsvp-udp
+03/22 08:51:06 INFO   :.....mailslot_create: creating mailslot for RSVP
+03/22 08:51:06 INFO   :....mailbox_register: mailbox allocated for rsvp
+03/22 08:51:06 INFO   :.....mailslot_create: creating mailslot for RSVP via UDP
+03/22 08:51:06 INFO   :....mailbox_register: mailbox allocated for rsvp-udp
+03/22 08:51:06 INFO   :.....mailslot_create: creating mailslot for RSVP
+03/22 08:51:06 INFO   :....mailbox_register: mailbox allocated for rsvp
+03/22 08:51:06 INFO   :.....mailslot_create: creating mailslot for RSVP via UDP
+03/22 08:51:06 INFO   :....mailbox_register: mailbox allocated for rsvp-udp
+03/22 08:51:06 INFO   :.....mailslot_create: creating mailslot for RSVP
+03/22 08:51:06 INFO   :....mailbox_register: mailbox allocated for rsvp
+03/22 08:51:06 INFO   :.....mailslot_create: creating mailslot for RSVP via UDP
+03/22 08:51:06 INFO   :....mailbox_register: mailbox allocated for rsvp-udp
+03/22 08:51:06 INFO   :.....mailslot_create: creating mailslot for RSVP
+03/22 08:51:06 INFO   :....mailbox_register: mailbox allocated for rsvp
+03/22 08:51:06 INFO   :.....mailslot_create: creating mailslot for RSVP via UDP
+03/22 08:51:06 INFO   :....mailbox_register: mailbox allocated for rsvp-udp
+03/22 08:52:50 INFO   :.......init_policyAPI: RegisterWithPolicyAPI:  Writing to socket = 22
+03/22 08:52:50 INFO   :.......init_policyAPI: ReadBuffer:  Entering
+03/22 08:52:51 INFO   :.......init_policyAPI: ReadBuffer:  Exiting
+03/22 08:52:51 INFO   :.......init_policyAPI: RegisterWithPolicyAPI:  Exiting
+03/22 08:52:51 INFO   :.......init_policyAPI: Policy API initialized
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: RSVPFindActionName:  Entering
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: ReadBuffer:  Entering
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: ReadBuffer:  Exiting
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: RSVPFindActionName:  Result = 0
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: RSVPFindActionName:  Exiting
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: found action name CLCat2 for 
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: RSVPFindServiceDetailsOnActName:  Entering
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: ReadBuffer:  Entering
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: ReadBuffer:  Exiting
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: RSVPFindServiceDetailsOnActName:  Result = 0
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: RSVPFindServiceDetailsOnActName:  Exiting
+03/22 08:52:51 INFO   :.....api_reader: appl chose service type 1
+03/22 08:52:51 INFO   :......rpapi_getSpecData: RSVPGetTSpec:  Entering
+03/22 08:52:51 INFO   :......rpapi_getSpecData: RSVPGetTSpec:  Result = 0
+03/22 08:52:51 INFO   :......rpapi_getSpecData: RSVPGetTSpec:  Exiting
+03/22 08:52:51 INFO   :.......rsvp_flow_stateMachine: state SESSIONED, event PATHDELTA
+03/22 08:52:51 INFO   :.......rsvp_parse_objects: obj RSVP_HOP hop=9.67.116.99, lih=0
+03/22 08:52:51 INFO   :.......rsvp_flow_stateMachine: state PATHED, event RESVDELTA
+03/22 08:52:51 INFO   :.........qosmgr_request: src-9.67.116.98:8000 dst-9.67.116.99:1047 proto-6 
+03/22 08:52:51 INFO   :.........qosmgr_request: [CL r=90000 b=6000 p=110000 m=1024 M=2048]
+03/22 08:52:51 INFO   :.........qosmgr_request: Ioctl to add reservation successful
+03/22 08:52:51 INFO   :..........rpapi_Reg_UnregFlow: RSVPPutActionName:  Entering
+03/22 08:53:38 INFO   :......rsvp_flow_stateMachine: state RESVED, event T1OUT
+03/22 08:53:52 INFO   :.......rsvp_parse_objects: obj RSVP_HOP hop=9.67.116.99, lih=0
+03/22 08:53:52 INFO   :.......rsvp_flow_stateMachine: state RESVED, event RESV
+03/22 08:53:53 INFO   :......router_forward_getOI: Ioctl to query route entry successful
+03/22 08:53:53 INFO   :......rsvp_flow_stateMachine: state RESVED, event T1OUT
+03/22 08:54:09 INFO   :......router_forward_getOI: Ioctl to query route entry successful
+03/22 08:54:09 INFO   :......rsvp_flow_stateMachine: state RESVED, event T1OUT
+03/22 08:54:22 INFO   :.......rsvp_parse_objects: obj RSVP_HOP hop=9.67.116.99, lih=0
+03/22 08:54:22 INFO   :.......rsvp_flow_stateMachine: state RESVED, event RESV
+03/22 08:54:24 INFO   :......router_forward_getOI: Ioctl to query route entry successful
+03/22 08:51:01 INFO   :.main: *************** RSVP Agent started ***************
+03/22 08:51:01 INFO   :...locate_configFile: Specified configuration file: /u/user10/rsvpd1.conf
+03/22 08:51:01 INFO   :.main: Using log level 511
+03/22 08:51:01 INFO   :..settcpimage: Get TCP images rc - EDC8112I Operation not supported on socket.
+03/22 08:51:01 INFO   :..settcpimage: Associate with TCP/IP image name = TCPCS
+03/22 08:51:02 INFO   :..reg_process: registering process with the system
+03/22 08:51:02 INFO   :..reg_process: attempt OS/390 registration
+03/22 08:51:02 INFO   :..reg_process: return from registration rc=0
+03/22 08:51:06 INFO   :...read_physical_netif: index #0, interface VLINK1 has address 129.1.1.1, ifidx 0
+03/22 08:51:06 INFO   :...read_physical_netif: index #1, interface TR1 has address 9.37.65.139, ifidx 1
+03/22 08:51:06 INFO   :...read_physical_netif: index #2, interface LINK11 has address 9.67.100.1, ifidx 2
+03/22 08:51:06 INFO   :...read_physical_netif: index #3, interface LINK12 has address 9.67.101.1, ifidx 3
+03/22 08:51:06 INFO   :...read_physical_netif: index #4, interface CTCD0 has address 9.67.116.98, ifidx 4
+03/22 08:51:06 INFO   :...read_physical_netif: index #5, interface CTCD2 has address 9.67.117.98, ifidx 5
+03/22 08:51:06 INFO   :...read_physical_netif: index #6, interface LOOPBACK has address 127.0.0.1, ifidx 0
+03/22 08:51:06 INFO   :....mailslot_create: creating mailslot for timer
+03/22 08:51:06 INFO   :...mailbox_register: mailbox allocated for timer
+03/22 08:51:06 INFO   :.....mailslot_create: creating mailslot for RSVP
+03/22 08:51:06 INFO   :....mailbox_register: mailbox allocated for rsvp
+03/22 08:51:06 INFO   :.....mailslot_create: creating mailslot for RSVP via UDP
+03/22 08:51:06 INFO   :....mailbox_register: mailbox allocated for rsvp-udp
+03/22 08:51:06 INFO   :.....mailslot_create: creating mailslot for RSVP
+03/22 08:51:06 INFO   :....mailbox_register: mailbox allocated for rsvp
+03/22 08:51:06 INFO   :.....mailslot_create: creating mailslot for RSVP via UDP
+03/22 08:51:06 INFO   :....mailbox_register: mailbox allocated for rsvp-udp
+03/22 08:51:06 INFO   :.....mailslot_create: creating mailslot for RSVP
+03/22 08:51:06 INFO   :....mailbox_register: mailbox allocated for rsvp
+03/22 08:51:06 INFO   :.....mailslot_create: creating mailslot for RSVP via UDP
+03/22 08:51:06 INFO   :....mailbox_register: mailbox allocated for rsvp-udp
+03/22 08:51:06 INFO   :.....mailslot_create: creating mailslot for RSVP
+03/22 08:51:06 INFO   :....mailbox_register: mailbox allocated for rsvp
+03/22 08:51:06 INFO   :.....mailslot_create: creating mailslot for RSVP via UDP
+03/22 08:51:06 INFO   :....mailbox_register: mailbox allocated for rsvp-udp
+03/22 08:51:06 INFO   :.....mailslot_create: creating mailslot for RSVP
+03/22 08:51:06 INFO   :....mailbox_register: mailbox allocated for rsvp
+03/22 08:51:06 INFO   :.....mailslot_create: creating mailslot for RSVP via UDP
+03/22 08:51:06 INFO   :....mailbox_register: mailbox allocated for rsvp-udp
+03/22 08:51:06 INFO   :.....mailslot_create: creating mailslot for RSVP
+03/22 08:51:06 INFO   :....mailbox_register: mailbox allocated for rsvp
+03/22 08:51:06 INFO   :.....mailslot_create: creating mailslot for RSVP via UDP
+03/22 08:51:06 INFO   :....mailbox_register: mailbox allocated for rsvp-udp
+03/22 08:52:50 INFO   :.......init_policyAPI: RegisterWithPolicyAPI:  Writing to socket = 22
+03/22 08:52:50 INFO   :.......init_policyAPI: ReadBuffer:  Entering
+03/22 08:52:51 INFO   :.......init_policyAPI: ReadBuffer:  Exiting
+03/22 08:52:51 INFO   :.......init_policyAPI: RegisterWithPolicyAPI:  Exiting
+03/22 08:52:51 INFO   :.......init_policyAPI: Policy API initialized
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: RSVPFindActionName:  Entering
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: ReadBuffer:  Entering
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: ReadBuffer:  Exiting
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: RSVPFindActionName:  Result = 0
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: RSVPFindActionName:  Exiting
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: found action name CLCat2 for 
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: RSVPFindServiceDetailsOnActName:  Entering
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: ReadBuffer:  Entering
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: ReadBuffer:  Exiting
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: RSVPFindServiceDetailsOnActName:  Result = 0
+03/22 08:52:51 INFO   :......rpapi_getPolicyData: RSVPFindServiceDetailsOnActName:  Exiting
+03/22 08:52:51 INFO   :.....api_reader: appl chose service type 1
+03/22 08:52:51 INFO   :......rpapi_getSpecData: RSVPGetTSpec:  Entering
+03/22 08:52:51 INFO   :......rpapi_getSpecData: RSVPGetTSpec:  Result = 0
+03/22 08:52:51 INFO   :......rpapi_getSpecData: RSVPGetTSpec:  Exiting
+03/22 08:52:51 INFO   :.......rsvp_flow_stateMachine: state SESSIONED, event PATHDELTA
+03/22 08:52:51 INFO   :.......rsvp_parse_objects: obj RSVP_HOP hop=9.67.116.99, lih=0
+03/22 08:52:51 INFO   :.......rsvp_flow_stateMachine: state PATHED, event RESVDELTA
+03/22 08:52:51 INFO   :.........qosmgr_request: src-9.67.116.98:8000 dst-9.67.116.99:1047 proto-6 
+03/22 08:52:51 INFO   :.........qosmgr_request: [CL r=90000 b=6000 p=110000 m=1024 M=2048]
+03/22 08:52:51 INFO   :.........qosmgr_request: Ioctl to add reservation successful
+03/22 08:52:51 INFO   :..........rpapi_Reg_UnregFlow: RSVPPutActionName:  Entering
+03/22 08:53:38 INFO   :......rsvp_flow_stateMachine: state RESVED, event T1OUT
+03/22 08:53:52 INFO   :.......rsvp_parse_objects: obj RSVP_HOP hop=9.67.116.99, lih=0
+03/22 08:53:52 INFO   :.......rsvp_flow_stateMachine: state RESVED, event RESV
+03/22 08:53:53 INFO   :......router_forward_getOI: Ioctl to query route entry successful
+03/22 08:53:53 INFO   :......rsvp_flow_stateMachine: state RESVED, event T1OUT
+03/22 08:54:09 INFO   :......router_forward_getOI: Ioctl to query route entry successful
+03/22 08:54:09 INFO   :......rsvp_flow_stateMachine: state RESVED, event T1OUT
+03/22 08:54:22 INFO   :.......rsvp_parse_objects: obj RSVP_HOP hop=9.67.116.99, lih=0
+03/22 08:54:22 INFO   :.......rsvp_flow_stateMachine: state RESVED, event RESV
+03/22 08:54:24 INFO   :......router_forward_getOI: Ioctl to query route entry successful
+03/22 08:51:01 INFO   :.main: *************** RSVP Agent started ***************
+03/22 08:51:01 INFO   :...locate_configFile: Specified configuration file: /u/user10/rsvpd1.conf
+03/22 08:51:01 INFO   :.main: Using log level 511
+03/22 08:51:01 INFO   :..settcpimage: Get TCP images rc - EDC8112I Operation not supported on socket.
+03/22 08:51:01 INFO   :..settcpimage: Associate with TCP/IP image name = TCPCS
+03/22 08:51:02 INFO   :..reg_process: registering process with the system
+03/22 08:51:02 INFO   :..reg_process: attempt OS/390 registration
+03/22 08:51:02 INFO   :..reg_process: return from registration rc=0
+03/22 08:51:06 INFO   :...read_physical_netif: index #0, interface VLINK1 has address 129.1.1.1, ifidx 0
+03/22 08:51:06 INFO   :...read_physical_netif: index #1, interface TR1 has address 9.37.65.139, ifidx 1
+03/22 08:51:06 INFO   :...read_physical_netif: index #2, interface LINK11 has address 9.67.100.1, ifidx 2
+03/22 08:51:06 INFO   :...read_physical_netif: index #3, interface LINK12 has address 9.67.101.1, ifidx 3
+03/22 08:51:06 INFO   :...read_physical_netif: index #4, interface CTCD0 has address 9.67.116.98, ifidx 4
+03/22 08:51:06 INFO   :...read_physical_netif: index #5, interface CTCD2 has address 9.67.117.98, ifidx 5
+03/22 08:51:06 INFO   :...read_physical_netif: index #6, interface LOOPBACK has address 127.0.0.1, ifidx 0
+03/22 08:51:06 INFO   :....mailslot_create: creating mailslot for timer
+03/22 08:51:06 INFO   :...mailbox_register: mailbox allocated for timer
+03/22 08:51:06 INFO   :.....mailslot_create: creating mailslot for RSVP
+03/22 08:51:06 INFO   :....mailbox_register: mailbox allocated for rsvp
+03/22 08:51:06 INFO   :.....mailslot_create: creating mailslot for RSVP via UDP
+03/22 08:51:06 INFO   :....mailbox_register: mailbox allocated for rsvp-udp
+03/22 08:51:06 INFO   :.....mailslot_create: creating mailslot for RSVP
+03/22 08:51:06 INFO   :....mailbox_register: mailbox allocated for rsvp
+03/22 08:51:06 INFO   :.....mailslot_create: creating mailslot for RSVP via UDP
+03/22 08:51:06 INFO   :....mailbox_register: mailbox allocated for rsvp-udp
+03/22 08:51:06 INFO   :.....mailslot_create: creating mailslot for RSVP
+03/22 08:51:06 INFO   :....mailbox_register: mailbox allocated for rsvp
+03/22 08:51:06 INFO   :.....mailslot_create: creating mailslot for RSVP via UDP
+03/22 08:51:06 INFO   :....mailbox_register: mailbox allocated for rsvp-udp
+03/22 08:51:06 INFO   :.....mailslot_create: creating mailslot for RSVP
+03/22 08:51:06 INFO   :....mailbox_register: mailbox allocated for rsvp
+03/22 08:51:06 INFO   :.....mailslot_create: creating mailslot for RSVP via UDP
+03/22 08:51:06 INFO   :....mailbox_register: mailbox allocated for rsvp-udp
+03/22 08:51:06 INFO   :.....mailslot_create: creating mailslot for RSVP
+03/22 08:51:06 INFO   :....mailbox_register: mailbox allocated for rsvp
+03/22 08:51:06 INFO   :.....mailslot_create: creating mailslot for RSVP via UDP
+03/22 08:51:06 INFO   :....mailbox_register: mailbox allocated for rsvp-udp
+03/22 08:51:06 INFO   :.....mailslot_create: creating mailslot for RSVP
+03/22 08:51:06 INFO   :....mailbox_register: mailbox allocated for rsvp
+03/22 08:51:06 INFO   :.....mailslot_create: creating mailslot for RSVP via UDP
+03/22 08:51:06 INFO   :....mailbox_register: mailbox allocated for rsvp-udp
